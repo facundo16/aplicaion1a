@@ -10,7 +10,7 @@ height: 100vh;
 #pantalla {
 	float: left;
 	width: 100%;
-	height: 15%;
+	height: 25%;
 	background: #9FC;
 	text-align: center;
 	color: #F93;
@@ -21,12 +21,12 @@ height: 100vh;
 #teclado {
 	float: left;
 	width:100%;
-	height: 100%;
+	height: 75%;
 }
 .nota { /*como nota es clase se le declara con .*/
 position: relative; /*relativa del teclado*/
 float: left;
-height: 90%;
+height: 100%;
 outline: #F09 solid 1px; /* linea de contorno*/
 background: #F6C;
 width: 6.6555%; /* la medida de obtiene de diviodr el 100% entre el numero de notas*/
@@ -35,7 +35,7 @@ width: 6.6555%; /* la medida de obtiene de diviodr el 100% entre el numero de no
 	position: relative;
 	top: 80%;
 	text-align: center;
-    font-size: 80%;
+    font-size: 150%;
 	font-weight: bold;
 }
 .tocada {
