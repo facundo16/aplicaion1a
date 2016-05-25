@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+#principal { /*left y top = posicion (0,0)*/
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100vh;
+}
+#pantalla {
+	float: left;
+	width: 100%;
+	height: 25%;
+	background: #9FC;
+	text-align: center;
+	color: #F93;
+	font-size: 5em; /* em es la unidad de medida que se utiliza el tamaño de impresion es decir 4 veces al tamaño de la medida y garantiza el diseño*/
+    font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+#teclado {
+	float: left;
+	width:100%;
+	height: 75%;
+}
+.nota { /*como nota es clase se le declara con .*/
+position: relative; /*relativa del teclado*/
+float: left;
+height: 90%;
+outline: #F09 solid 1px; /* linea de contorno*/
+background: #F6C;
+width: 14.28571428571429%; /* la medida de obtiene de diviodr el 100% entre el numero de notas*/
+}
+.textonota {
+	position: relative;
+	top: 80%;
+	text-align: center;
+    font-size: 2em;
+	font-weight: bold;
+}
+.tocada {
+	background: #F90;
+	color: #F99;
+	outline: #6C9 solid 1px;
+}
+
+	
+
